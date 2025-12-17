@@ -9,7 +9,9 @@ For developers, OpenWrt is the framework to build an application without having
 to build a complete firmware around it; for users this means the ability for
 full customization, to use the device in ways never envisioned.
 
-Sunshine!
+This fork of OpenWRT is used as the build system for Cascoda's KNX-IoT Hub
+images. The changes to OpenWRT itself & associated are quite minimal - this
+is mostly for the convenience of building & releasing images
 
 ## Development
 
@@ -43,6 +45,33 @@ make4.1+ perl python3.6+ rsync subversion unzip which
 4. Run `make` to build your firmware. This will download all sources, build the
    cross-compile toolchain and then cross-compile the GNU/Linux kernel & all chosen
    applications for your target system.
+
+### Fixing Build Errors
+
+OpenWRT does not print out build logs by default, they need to be turned on manually
+after a build issue is detected. To do so, run the following command in the `openwrt`
+directory:
+```
+make V=s
+```
+
+Note that _all logs for all packages are turned on_. This makes the output much more
+difficult to parse than usual build logs. What works best for finding errors is
+searching for the name of the broken package or executable in a text editor,
+from the bottom of the file upwards.
+
+### Building for the Alfa Networks R36A
+
+The R36A is the base platform onto which Cascoda's KNX IoT Hub is built. We provide
+a configuration file for building for this platform.
+
+To make use of this files:
+```bash
+cp .config-r36a .config
+make
+```
+
+- `.config-r36a` - vanilla Hub, with no Cascoda proprietary software.
 
 ### Related Repositories
 

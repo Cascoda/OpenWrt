@@ -1,0 +1,292 @@
+Index: wireless-regdb-2022.06.06/db.txt
+===================================================================
+--- wireless-regdb-2022.06.06.orig/db.txt
++++ wireless-regdb-2022.06.06/db.txt
+@@ -112,7 +112,7 @@ country AS: DFS-FCC
+ # AT: https://www.rtr.at/en/tk/Spektrum5GHz/1997_bmvit-info-052010en.pdf
+ # AT: acceptance https://www.ris.bka.gv.at/Dokumente/BgblAuth/BGBLA_2014_II_63/BGBLA_2014_II_63.pdfsig
+ country AT: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -186,7 +186,7 @@ country BD: DFS-JP
+ # BE: https://www.ibpt.be/public/files/en/21762/B03-03_2.1_EN.pdf
+ # BE: https://www.ibpt.be/public/files/en/22165/B01-28_3.1_EN.pdf
+ country BE: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -233,7 +233,7 @@ country BF: DFS-FCC
+ country BG: DFS-ETSI
+ 	# Wideband data transmission systems (WDTS) in the 2.4GHz ISM band, ref:
+ 	# I.22 of the List, BDS EN 300 328
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	# 5 GHz Radio Local Area Networks (RLANs), ref:
+ 	# II.H01 of the List, BDS EN 301 893
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+@@ -419,7 +419,7 @@ country CX: DFS-FCC
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # CY: http://www.mcw.gov.cy/mcw/dec/dec.nsf/all/292484CFC7013DD4C2256EBA0023D447/$file/Sxedio%20Radiosyxnothtwn%20ths%20Dhmokratias-3-8-2018-E2.2(English%20Unified%20Unofficial).pdf?openelement
+ country CY: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -439,7 +439,7 @@ country CY: DFS-ETSI
+ # CZ: https://www.ctu.cz/cs/download/vseobecna-opravneni/archiv/vo-r_12-06_2010-09.pdf
+ # CZ: https://www.ctu.cz/sites/default/files/obsah/ctu/vseobecne-opravneni-c.vo-r/10/12.2017-10/obrazky/vo-r10-122017-10.pdf
+ country CZ: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -483,7 +483,7 @@ country CZ: DFS-ETSI
+ # including Wireless Local Area Networks“))
+ # https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/Allgemeinzuteilungen/MobilfunkDectWlanCBFunk/vfg552021WLAN6GHz.pdf
+ country DE: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -504,7 +504,7 @@ country DE: DFS-ETSI
+ # 5GHz: https://erhvervsstyrelsen.dk/sites/default/files/007_interface-datanet_5-6_ghz.pdf.pdf
+ # 60GHz: https://erhvervsstyrelsen.dk/sites/default/files/radiograenseflader-63.pdf
+ country DK: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -553,7 +553,7 @@ country EC: DFS-FCC
+ # EE: https://www.ttja.ee/et/ettevottele-organisatsioonile/sideteenused/raadioseadmed/wifi-seade
+ # EE: https://www.itu.int/ITU-D/study_groups/SGP_1998-2002/JGRES09/pdf/estonia.pdf
+ country EE: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -578,7 +578,7 @@ country EG: DFS-ETSI
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # ES: https://avancedigital.mineco.gob.es/espectro/Paginas/cnaf.aspx
+ country ES: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -602,7 +602,7 @@ country ET: DFS-ETSI
+ #  EU decision 2021/1067/EC: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021D1067&from=EN
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ country FI: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -628,7 +628,7 @@ country FM: DFS-FCC
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # FR: https://www.anfr.fr/fileadmin/mediatheque/documents/tnrbf/TNRBF_2021-12-14.pdf
+ country FR: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -648,7 +648,7 @@ country FR: DFS-ETSI
+ # GB: https://www.ofcom.org.uk/__data/assets/pdf_file/0028/84970/ir-2030.pdf
+ # GB: https://www.ofcom.org.uk/__data/assets/pdf_file/0013/126121/Statement_Implementing-Ofcoms-decision-on-the-57-71GHz-band.pdf
+ country GB: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5730 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -706,7 +706,7 @@ country GP: DFS-ETSI
+ # GR: https://www.eett.gr/opencms/export/sites/default/EETT_EN/Electronic_Communications/Radio_Communications/TelecommunicationEquipment/Radio_equipment_interface_requirement_2012.pdf
+ # GR: https://www.eett.gr/opencms/export/sites/default/EETT_EN/Electronic_Communications/Radio_Communications/TelecommunicationEquipment/Radio_equipment_interface_requirement_107.pdf
+ country GR: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -757,7 +757,7 @@ country HR: DFS-ETSI
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # HR: http://tablice.hakom.hr:8080/vis?lang=en
+ # 6E: https://www.hakom.hr/UserDocsImages/op%C4%87e%20dozvole%20prosinac%202009.g/Opca_dozvola_236.pdf
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (200 mW), DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -785,7 +785,7 @@ country HT: DFS-FCC
+ # HU: http://english.nmhh.hu/cikk/297/Eljarasi_tajekoztato_a_24_GHzes_es_az_5_GHzes_savban_mukodo_berendezesek_engedelyezeserol
+ # HU: http://nmhh.hu/dokumentum/319/kis_hatotavolsagu_eszkozok_srdk.pdf
+ country HU: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -811,7 +811,7 @@ country ID: DFS-JP
+ # IE: https://www.comreg.ie/publication-download/interface-requirements-for-radio-services-in-ireland
+ # IE: https://www.comreg.ie/publication-download/permitted-short-range-devices-ireland
+ country IE: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -854,7 +854,7 @@ country IR: DFS-JP
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # IS: https://www.pfs.is/library/Skrar/Tidnir-og-taekni/MHZ_21022019.pdf
+ country IS: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -870,7 +870,7 @@ country IS: DFS-ETSI
+ #  EU decision 2021/1067/EC: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021D1067&from=EN
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ country IT: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -998,7 +998,7 @@ country LC: DFS-ETSI
+ # LI: https://www.ofcomnet.ch/api/rir/1008/12
+ # LI: https://www.ofcomnet.ch/#/fatTable
+ country LI: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1031,7 +1031,7 @@ country LS: DFS-ETSI
+ # LT: https://www.rrt.lt/en/radio-spectrum/frequency-management/ or direct link:
+ # LT: https://www.e-tar.lt/portal/lt/legalAct/6e718fd037a011e69101aaab2992cbcd/dGRioCBBHb
+ country LT: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1050,7 +1050,7 @@ country LT: DFS-ETSI
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # LU: https://assets.ilr.lu/frequences/Documents/ILRLU-1723895916-183.pdf#search=en%20300%20440
+ country LU: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1069,7 +1069,7 @@ country LU: DFS-ETSI
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # LV: http://likumi.lv/doc.php?id=198903
+ country LV: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1199,7 +1199,7 @@ country MR: DFS-ETSI
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # MT: https://www.mca.org.mt/sites/default/files/NFP_edition%206-1.pdf
+ country MT: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1269,7 +1269,7 @@ country NI: DFS-FCC
+ # NL announcement: https://zoek.officielebekendmakingen.nl/stcrt-2021-49492.pdf
+ # NL law: https://wetten.overheid.nl/BWBR0036378/2021-12-15
+ country NL: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1289,7 +1289,7 @@ country NL: DFS-ETSI
+ # NO: http://www.lovdata.no/dokument/SF/forskrift/2012-01-19-77
+ # In addition to EU NO can use 5725–5795 MHz and 5815–5850 bands with limit of 4 W EIRP (with DFS and TPC)
+ country NO: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1369,7 +1369,7 @@ country PK: DFS-JP
+ #  EU decision 2021/1067/EC: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021D1067&from=EN
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ country PL: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1401,7 +1401,7 @@ country PR: DFS-FCC
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # PT: https://www.anacom.pt/render.jsp?categoryId=336334
+ country PT: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1448,7 +1448,7 @@ country RE: DFS-ETSI
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # RO: http://www.ancom.org.ro/en/uploads/links_files/ordin_262_2006.pdf
+ country RO: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1504,7 +1504,7 @@ country SA: DFS-ETSI
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # SE: https://pts.se/globalassets/startpage/dokument/legala-dokument/foreskrifter/radio/beslutade_ptsfs-2018-3-undantagsforeskrifter.pdf
+ country SE: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1543,7 +1543,7 @@ country SG: DFS-FCC
+ # Harmonized CEPT countries (July 2019): https://www.ecodocdb.dk/download/25c41779-cd6e/Rec7003e.pdf
+ # SI: https://www.akos-rs.si/bwa
+ country SI: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1564,7 +1564,7 @@ country SI: DFS-ETSI
+ # SK: https://www.teleoff.gov.sk/data/files/41072.pdf
+ # SK: https://www.teleoff.gov.sk/data/files/49125_vpr-01_2018-rusi-vpr-10_2014a21_2012-nespecifik-srd_021018.pdf
+ country SK: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (100 mW)
++	(2400 - 2483.5 @ 40), (10 mW)
+ 	(5150 - 5250 @ 80), (200 mW), NO-OUTDOOR, AUTO-BW, wmmrule=ETSI
+ 	(5250 - 5350 @ 80), (100 mW), NO-OUTDOOR, DFS, AUTO-BW, wmmrule=ETSI
+ 	(5470 - 5725 @ 160), (500 mW), DFS, wmmrule=ETSI
+@@ -1637,7 +1637,7 @@ country TN: DFS-ETSI
+ # https://www.btk.gov.tr/File/?path=ROOT%2f1%2fDocuments%2fOrdinance%2fBY%2DLAW%20ON%20SHORT%20RANGE%20DEVICES.pdf
+ # Article 8
+ country TR: DFS-ETSI
+-	(2400 - 2483.5 @ 40), (20)
++	(2400 - 2483.5 @ 40), (10)
+ 	(5170 - 5250 @ 80), (23), NO-OUTDOOR, AUTO-BW
+ 	(5250 - 5330 @ 80), (20), DFS, NO-OUTDOOR, AUTO-BW
+ 	(5470 - 5725 @ 160), (27), DFS

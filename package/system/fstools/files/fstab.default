@@ -1,2 +1,6 @@
-[ ! -f /etc/config/fstab ] && ( block detect > /etc/config/fstab )
+if [ ! -f /etc/config/fstab ]; then
+	block detect > /etc/config/fstab
+	uci set fstab.@global[0].anon_mount='1'
+	uci commit fstab
+fi
 exit 0
